@@ -1,0 +1,1 @@
+docker run --name DeepLearning -d --mount type=bind,source=`pwd`/data,target=/caffe/data --mount type=bind,source=`pwd`/notebooks,target=/caffe/notebooks -p 8887:8888 caffe_jupyter
